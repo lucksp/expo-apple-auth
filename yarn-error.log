@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/lucksp/.nvm/versions/node/v18.18.2/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/lucksp/.rvm/gems/ruby-2.7.6/bin:/Users/lucksp/.rvm/gems/ruby-2.7.6@global/bin:/Users/lucksp/.rvm/rubies/ruby-2.7.6/bin:/Users/lucksp/Documents/google-cloud-sdk/bin:/opt/homebrew/opt/openjdk@11/bin:/Users/lucksp/.pyenv/shims:/Users/lucksp/.deno/bin:/Users/lucksp/.yarn/bin:/Users/lucksp/.config/yarn/global/node_modules/.bin:/Users/lucksp/.nvm/versions/node/v18.18.2/bin:/Users/lucksp/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/lucksp/Android/Sdk/platform-tools:/Users/lucksp/Library/Android/sdk/platform-tools:/Users/lucksp/Applications/iTerm.app/Contents/Resources/utilities:/Users/lucksp/Library/Android/sdk/emulator:/Users/lucksp/Library/Android/sdk/platform-tools:/Users/lucksp/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/lucksp/dev/expo-apple-auth/package.json: Unexpected token } in JSON at position 388
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "expo-apple-auth",
+    "version": "1.0.0",
+    "description": "to replicate error",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "expo": "~50.0.19",
+      "expo-apple-authentication": "~6.3.0",
+      "react": "18.2.0",
+      "react-native": "0.73.6",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

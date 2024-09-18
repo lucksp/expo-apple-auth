@@ -1,0 +1,11 @@
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, id:F64CFC92-7EC4-4AB1-958B-E945B02EE156, OS:17.5, name:_iPhone14, Pro, 17.5 }
+{ platform:iOS Simulator, id:F64CFC92-7EC4-4AB1-958B-E945B02EE156, OS:17.5, name:_iPhone14, Pro, 17.5 }
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 Compiling\ AppleAuthenticationButton.swift,\ AppleAuthenticationExceptions.swift,\ AppleAuthenticationModule.swift,\ AppleAuthenticationRequest.swift,\ AppleAuthenticationRequestOptions.swift,\ AppleAuthenticationUtils.swift,\ ButtonStyle.swift,\ ButtonType.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationButton.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationExceptions.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationModule.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationRequest.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationRequestOptions.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/AppleAuthenticationUtils.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/ButtonStyle.swift /Users/lucksp/dev/expo-apple-auth/node_modules/expo-apple-authentication/ios/ButtonType.swift (in target 'ExpoAppleAuthentication' from project 'Pods')
+	CompileSwift normal arm64 (in target 'ExpoAppleAuthentication' from project 'Pods')
+	Building workspace expoappleauth with scheme expoappleauth and configuration Debug
+(3 failures)
